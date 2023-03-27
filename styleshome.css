@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+.back-image {
+    background-image: url(https://i.pinimg.com/originals/b0/cb/c8/b0cbc8488bb81d76540f7796a1054f67.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: wheat;
+    background-blend-mode: multiply;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 1200px;
+    z-index: -1;
+}
+
+h2 {
+    color: black ;
+}
+
+h3 {
+    color: black;
+    font-weight: bolder;
+}
+
+.main-title {
+    font: size 32px;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+
+}
+
+.description1 {
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: right;
+    color:darkblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  section {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Lucida Sans'; 
+    color: black;
+  }
+
+  h3 {
+    font-family: cursive;
+    color: black
+  }
+ 
+
+.power-windows, .moving-pictures, .signals, .hold-your-fire {
+    width: 300px; 
+    height: 300px;
+}
