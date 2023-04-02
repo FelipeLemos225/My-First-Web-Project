@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RUSH - Power Windows</title>
     <link rel="stylesheet" href="stylespost.css" />
+    <link rel="stylesheet" href="all.css" />
   </head>
 
   <body>
@@ -16,7 +17,7 @@
         <h2 id="description">Power Windows - 1985</h2>
         <img
           src="https://roadie-metal.com/wp-content/uploads/2020/10/power-windows-cover-600x600-1.jpg"
-          class="power-windows"
+          class="album-art"
           alt="Power Windows Cover"
         />
       </section>
@@ -44,31 +45,26 @@
           <p class="member">Neil Peart</p>
         </ul>
       </section>
-      <article id="comments">
+
+      <article class="comments">
         <header>
           <h2 id="article-title">Comments about this Album:</h2>
-        <hr>
+          <hr>
         </header>
-        <h4>ID: 01</h4>
-        <h4>Album ID: 1</h4>
-        <h4 id="email">Email: mkpdrum@gmail.com</h4>
-        <p class="text-comment">
-          This is a fantastic register by the band. It's a conceptional album 
-          that elucidates the various forms of Power in life.
-        </p>
-        <footer class="signature">
-          Name: Mike Portnoy
-        </footer>
-        <hr>
-        <h4>ID: 02</h4>
-        <h4>Album ID: 1</h4>
-        <h4 id="email">Email: jpguitar@gmail.com</h4>
-        <p class="text-comment">
-          An amazing record! One of the best albuns of all time.
-        </p>
-        <footer class="signature">
-          Name: John Petrucci
-        </footer>
+        <div id="comments"></div>
+        <script src="appC.js"></script>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            exibirComments();
+          });
+        </script>
+        <a id="back" href="index.html" title="Back to home Page">
+          <img
+            src="https://cdn.icon-icons.com/icons2/1458/PNG/512/homebutton_99695.png"
+            class="button-home"
+            alt="Home Page"
+          />
+        </a>
       </article>
     </main>
   </body>
