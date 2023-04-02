@@ -1,0 +1,12 @@
+{
+  "name": "project-w4",
+  "version": "1.0.0",
+  "description": "A Web page with main post and post details.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
