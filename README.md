@@ -8,6 +8,7 @@ This is a mini project with a list of some web pages and a home page that contai
 - The home page has four images/links that the user can click to see the information and comments related to the four albums.
 - The user can navigate back to the home page with an image/button link at the bottom of the comments pages.
 - The pages are rendered from JavaScript code.
+- The user can open this page on his smartphone (Every page is responsive).
 
 ### 🛠 Technologies
 
